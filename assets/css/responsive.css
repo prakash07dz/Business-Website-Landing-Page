@@ -261,10 +261,10 @@
     padding: 5px;
   }
   .clients-container img {
-    width: 26%;
+    width: 10%;
   }
   .section-title {
-    height: 65px;
+   min-height: 275px;
   }
   .section-title h2 {
     margin-top: 10px;
