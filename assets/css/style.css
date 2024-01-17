@@ -21,12 +21,21 @@ body {
 a {
   color: #47b2e4;
   text-decoration: none;
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
 }
 
 a:hover {
   color: #73c5eb;
   text-decoration: none;
-  transition: 0.5s;
+  transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
 }
 
 h1,
@@ -1009,7 +1018,7 @@ h6 {
 }
 
 #footer .footer-newsletter form input[type="email"] {
-  width: 50%;
+  width: 100%;
   border: 0;
   padding: 4px 8px;
 }
